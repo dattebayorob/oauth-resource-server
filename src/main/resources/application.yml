@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    client:
+      id: client_id
+      secret: client_secret
+    authorization:
+      uri: http://localhost:8081
+      introspect-uri: http://localhost:8081/oauth/introspect_token
